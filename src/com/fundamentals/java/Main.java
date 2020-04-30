@@ -5,7 +5,8 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson5Examples();
+       lesson6Examples();
+        // lesson5Examples();
 	// write your code here
        //System.out.println("Hello Java");
        //System.out.println("This is my first sentence");
@@ -15,6 +16,19 @@ public class Main {
 
        //myHouseExample();
     } // End main method
+
+    public static void lesson6Examples() {
+        Lesson6 mySix = new Lesson6();
+        mySix.exampleCharAt();
+        mySix.exampleConcat(" has awesome donuts");
+        mySix.exampleEquals("LaMars");
+        System.out.println(mySix.exampleLowercase());
+        System.out.println(mySix.exampleUppercase());
+        mySix.exampleLength();
+        mySix.exampleBuilder("Spaghetti", 2);
+        mySix.exampleChar();
+        mySix.exampleEscape();
+    } // end method lesson6Examples
 
     public static void lesson5Examples() {
         Lesson5 myFive = new Lesson5();

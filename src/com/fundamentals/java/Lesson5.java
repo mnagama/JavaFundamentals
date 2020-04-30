@@ -36,7 +36,7 @@ public class Lesson5 {
 
     // Hexadecimal value of 26
     int value2 = 0x1a;
-
+    int value4 = 0x1D;
     // Binary value of 26
     int value3 = 0b11010;
 
