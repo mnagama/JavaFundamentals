@@ -5,7 +5,8 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-       lesson6Examples();
+        lesson7Examples();
+        //  lesson6Examples();
         // lesson5Examples();
 	// write your code here
        //System.out.println("Hello Java");
@@ -16,6 +17,14 @@ public class Main {
 
        //myHouseExample();
     } // End main method
+
+    public static void lesson7Examples() {
+        Lesson7 mySeven = new Lesson7();
+        mySeven.basicMath();
+        mySeven.exampleModulus();
+        //mySeven.addTwoNumbers();
+        mySeven.exampleAssignment();
+    } // end method lesson7Examples
 
     public static void lesson6Examples() {
         Lesson6 mySix = new Lesson6();
