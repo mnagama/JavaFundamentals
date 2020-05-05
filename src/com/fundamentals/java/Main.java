@@ -5,7 +5,8 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson7Examples();
+        lesson8Examples();
+        //lesson7Examples();
         //  lesson6Examples();
         // lesson5Examples();
 	// write your code here
@@ -18,12 +19,30 @@ public class Main {
        //myHouseExample();
     } // End main method
 
+    public static void lesson8Examples() {
+        Lesson8 myEight = new Lesson8();
+        myEight.basicIfStatement(2,2);
+        myEight.basicIfElseExample(4,4);
+        myEight.basicIfElseChainExample(33);
+        myEight.basicIfAndOrExample(108);
+        myEight.basicSwitchExample(2);
+        myEight.basicWhileExample();
+        myEight.basicDoWhileExample();
+    } // end method lesson8Examples
+
     public static void lesson7Examples() {
         Lesson7 mySeven = new Lesson7();
         mySeven.basicMath();
         mySeven.exampleModulus();
         //mySeven.addTwoNumbers();
         mySeven.exampleAssignment();
+        mySeven.exampleLeftShit();
+        mySeven.exampleRightShift();
+        mySeven.exampleAND();
+        mySeven.exampleXOR();
+        mySeven.exampleRelational();
+        mySeven.exampleIncrement();
+        mySeven.exampleDecrement();
     } // end method lesson7Examples
 
     public static void lesson6Examples() {
